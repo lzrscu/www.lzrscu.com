@@ -14,32 +14,43 @@
 
   <div class="motd">www.lzrscu.com (tty1)</div>
 
-  <div class="cmd"><span class="user">sebastian@lzrscu</span>:<span class="cwd">~</span><span class="sym">$</span> <span class="c">ls -l</span></div>
+  <div class="cmd">
+    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
+    <span class="c">ls -l</span>
+  </div>
   <div class="out">
     <pre class="ls-l">
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="#education">education/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="#experience">experience/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="#projects">projects/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="#skills">skills/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="#contact">contact/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="library.html">library/</a></pre>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#education>education/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#experience>experience/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#projects>projects/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#skills>skills/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#contact>contact/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=library.html>library/</a>
+</pre>
   </div>
 
-  <div class="cmd"><span class="user">sebastian@lzrscu</span>:<span class="cwd">~</span><span class="sym">$</span> <span class="c">whoami</span></div>
+  <div class="cmd">
+    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
+    <span class="c">whoami</span>
+  </div>
   <div class="out" id="about">
     <p>
-      <b>Sebastian Lăzărescu</b><br>
-      B.Eng. in Systems Engineering (2026), now an M.Eng. student in <b>Machine
-      Learning, Robotics and Control</b> at TUIASI. I write real-time firmware,
-      build robots in simulation, and am looking for embedded or software
-      engineering roles.
+      <b>ing. Sebastian Lăzărescu</b><br>
+      Automation engineer (inginer automatist) with an interest in embedded
+      systems, robotics, machine learning, UNIX, and much more. <b>Systems
+      Engineering</b> graduate (B.Eng. in 2026), now a M.Eng. student in
+      <b>Machine Learning, Robotics, and Control</b>.
     </p>
   </div>
 
-  <div class="cmd" id="education"><span class="user">sebastian@lzrscu</span>:<span class="cwd">~</span><span class="sym">$</span> <span class="c">cat education.txt</span></div>
+  <div class="cmd" id="education">
+    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
+    <span class="c">cat education.txt</span>
+  </div>
   <div class="out">
     <ul>
-      <li><b>M.Eng., Machine Learning, Robotics and Control</b> - Gheorghe Asachi
+      <li><b>M.Eng., Machine Learning, Robotics, and Control</b> - Gheorghe
+        Asachi
         Technical University of Iași, Faculty of Automatic Control and Computer
         Engineering <span class="dim">(Oct 2026 - present)</span></li>
       <li><b>B.Eng., Systems Engineering</b> - Gheorghe Asachi Technical
@@ -55,12 +66,16 @@ drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="library.html">library/</a>
     </p>
   </div>
 
-  <div class="cmd" id="experience"><span class="user">sebastian@lzrscu</span>:<span class="cwd">~</span><span class="sym">$</span> <span class="c">cat experience/*</span></div>
+  <div class="cmd" id="experience">
+    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
+    <span class="c">cat experience/*</span>
+  </div>
   <div class="out">
     <div class="entry">
       <span class="t">Continental, Iași</span> - Summer Knowledge Hub Intern
       <span class="dim">(Jun - Jul 2025)</span>
-      <span class="d">Built, together with a team of students, a Python and Flask web
+      <span class="d">Built, together with a team of students, a Python and
+        Flask web
         application using pandas and cantools to parse DBC databases, extract
         and interpret diagnostic messages, and visualize CAN network data in an
         interactive front end. Restructured frame payloads to cut redundant
@@ -69,12 +84,16 @@ drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="library.html">library/</a>
     </div>
   </div>
 
-  <div class="cmd" id="projects"><span class="user">sebastian@lzrscu</span>:<span class="cwd">~</span><span class="sym">$</span> <span class="c">cat projects/*</span></div>
+  <div class="cmd" id="projects">
+    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
+    <span class="c">cat projects/*</span>
+  </div>
   <div class="out">
     <div class="entry">
       <span class="t">Collaborative UAV-UGV Search-and-Rescue Simulation</span>
       <span class="dim">(bachelor thesis)</span>
-      <span class="d">A drone flies a lawnmower coverage path, spots victims with
+      <span class="d">A drone flies a lawnmower coverage path, spots victims
+        with
         a thermal camera and georeferences them. A ground rover is then sent
         to each location.</span>
       <span class="s">ROS 2, PX4 SITL, Gazebo, Nav2</span>
@@ -92,31 +111,51 @@ drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href="library.html">library/</a>
     </div>
   </div>
 
-  <div class="cmd" id="skills"><span class="user">sebastian@lzrscu</span>:<span class="cwd">~</span><span class="sym">$</span> <span class="c">cat skills.txt</span></div>
+  <div class="cmd" id="skills">
+    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
+    <span class="c">cat skills.txt</span>
+  </div>
   <div class="out">
     <ul>
       <li><b>languages:</b> C, C++, Python, Java, x86 Assembly</li>
       <li><b>embedded:</b> microcontroller programming, RTOSs</li>
       <li><b>networking:</b> TCP/IP, socket programming, Wireshark</li>
       <li><b>robotics:</b> ROS 2, Nav2, Gazebo</li>
-      <li><b>control:</b> MATLAB, Simulink, PID control, system identification and modeling</li>
+      <li><b>control:</b> MATLAB, Simulink, PID control, system identification
+        and modeling</li>
       <li><b>tools:</b> GNU/Linux, UNIX, Git, shell scripting, LaTeX, SQL</li>
-      <li><b>spoken:</b> Romanian (native), English (upper-intermediate, B2), German (beginner)</li>
+      <li><b>spoken:</b> Romanian (native), English (upper-intermediate, B2),
+        German (beginner)</li>
     </ul>
   </div>
 
-  <div class="cmd" id="contact"><span class="user">sebastian@lzrscu</span>:<span class="cwd">~</span><span class="sym">$</span> <span class="c">cat contact.txt</span></div>
+  <div class="cmd" id="contact">
+    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
+    <span class="c">cat contact.txt</span>
+  </div>
   <div class="out">
     <ul class="plain">
-      <li><span class="dim">email   </span> <a href="mailto:sebastian@lzrscu.com">sebastian {at} lzrscu.com</a></li>
-      <li><span class="dim">school  </span> <a href="mailto:sebastian.lazarescu@student.tuiasi.ro">sebastian.lazarescu {at} student.tuiasi.ro</a></li>
-      <li><span class="dim">github  </span> <a href="https://github.com/lzrscu" target="_blank" rel="noopener">github.com/lzrscu</a></li>
-      <li><span class="dim">codeberg</span> <a href="https://codeberg.org/lzrscu" target="_blank" rel="noopener">codeberg.org/lzrscu</a></li>
-      <li><span class="dim">linkedin</span> <a href="https://www.linkedin.com/in/lzrscu" target="_blank" rel="noopener">linkedin.com/in/lzrscu</a></li>
+      <li><span class="dim">email   </span>
+        <a href="mailto:sebastian@lzrscu.com">sebastian {at} lzrscu.com</a></li>
+      <li><span class="dim">school  </span>
+        <a href="mailto:sebastian.lazarescu@student.tuiasi.ro">
+          sebastian.lazarescu {at} student.tuiasi.ro</a></li>
+      <li><span class="dim">github  </span>
+        <a href="https://github.com/lzrscu" target="_blank"
+          rel="noopener">github.com/lzrscu</a></li>
+      <li><span class="dim">codeberg</span>
+        <a href="https://codeberg.org/lzrscu" target="_blank"
+          rel="noopener">codeberg.org/lzrscu</a></li>
+      <li><span class="dim">linkedin</span>
+        <a href="https://www.linkedin.com/in/lzrscu" target="_blank"
+          rel="noopener">linkedin.com/in/lzrscu</a></li>
     </ul>
   </div>
 
-  <div class="cmd"><span class="user">sebastian@lzrscu</span>:<span class="cwd">~</span><span class="sym">$</span> <span class="c"><span class="cursor" aria-hidden="true"></span></span></div>
+  <div class="cmd">
+    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
+    <span class="c"><span class="cursor" aria-hidden="true"></span></span>
+  </div>
 
 </main>
 </body>

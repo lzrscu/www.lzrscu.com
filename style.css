@@ -59,7 +59,7 @@ b, strong, h2 { font-weight: 700; color: var(--fg); }
 /* prompt lines: dim user@host:path, bright "$" and typed command */
 .cmd { margin: 34px 0 6px; word-break: break-word; }
 .motd { margin: 0 0 -10px; color: var(--dim); }
-.user, .cwd { color: var(--dim); font-weight: 400; }
+.ps { color: var(--dim); font-weight: 400; }
 .sym { color: var(--fg); }
 .c { color: var(--fg); font-weight: 700; }
 .c a { font-weight: 700; }
@@ -88,7 +88,13 @@ ul { list-style: none; padding: 0; }
 .entry .s::after  { content: "]"; }
 
 /* ls -l listing */
-.ls-l { margin: 0; font: inherit; white-space: pre; overflow-x: auto; color: var(--dim); }
+.ls-l {
+    margin: 0;
+    font: inherit;
+    white-space: pre;
+    overflow-x: auto;
+    color: var(--dim);
+}
 .ls-l a { color: var(--fg); }
 
 /* ls-style listing */
