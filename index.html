@@ -2,161 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ing. Sebastian Lăzărescu - embedded
-  systems, robotics and control. M.Eng. student at TUIASI.">
-  <meta name="color-scheme" content="dark light">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
   <title>www.lzrscu.com</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/lzr.png">
 </head>
 <body>
+
+<header>
+  <div class="wrap"><a href="index.html">sebastian@www.lzrscu.com:~$</a></div>
+</header>
+
 <main>
-
-  <div class="motd">www.lzrscu.com (tty1)</div>
-
-  <div class="cmd">
-    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
-    <span class="c">ls -l</span>
-  </div>
-  <div class="out">
-    <pre class="ls-l">
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#education>education/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#experience>experience/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#projects>projects/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#skills>skills/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=#contact>contact/</a>
-drwxr-xr-x 2 lzrscu lzrscu 4096 Oct 23  2026 <a href=library.html>library/</a>
+  <p class="cmd">ls -l</p>
+<pre class="ls">
+drwxr-xr-x 2 lzrscu lzrscu 4096 Nov  8  2026 <a href=#contact>contact/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Nov 11  2026 <a href=#education>education/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Nov  8  2026 <a href=#experience>experience/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Nov  8  2026 <a href=library.html>library/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Nov  8  2026 <a href=#projects>projects/</a>
+drwxr-xr-x 2 lzrscu lzrscu 4096 Nov  8  2026 <a href=#skills>skills/</a>
 </pre>
+
+  <p class="cmd">whoami</p>
+  <h1>ing. Sebastian Lăzărescu</h1>
+
+  <p>
+    Welcome to my personal website. I mostly write real-time firmware and
+    build robots in simulation, and you can usually find my code on
+    <a href="https://github.com/lzrscu" target="_blank"
+      rel="noopener">GitHub</a>. If you want to chat, feel free to
+    <a href="mailto:sebastian@lzrscu.com">send me an email</a>!
+  </p>
+
+  <p>
+    I finished my B.Eng. in Systems Engineering in 2026 and now study Machine
+    Learning, Robotics and Control at the Gheorghe Asachi Technical University
+    of Iași. I'm looking for embedded or software engineering roles. When I'm
+    away from the keyboard I read, and you can browse
+    <a href="library.html">my library</a>.
+  </p>
+
+  <h2 id="education">cat education.txt</h2>
+
+  <div class="post">
+    <div class="title">M.Eng. in Machine Learning, Robotics and Control</div>
+    <div class="meta">
+      <span>Oct 2026 - present</span>
+      <span>Gheorghe Asachi Technical University of Iași</span>
+    </div>
+    <p>Faculty of Automatic Control and Computer Engineering.</p>
   </div>
 
-  <div class="cmd">
-    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
-    <span class="c">whoami</span>
-  </div>
-  <div class="out" id="about">
+  <div class="post">
+    <div class="title">B.Eng. in Systems Engineering</div>
+    <div class="meta">
+      <span>Oct 2022 - Jul 2026</span>
+      <span>Gheorghe Asachi Technical University of Iași</span>
+    </div>
     <p>
-      <b>ing. Sebastian Lăzărescu</b><br>
-      Automation engineer (inginer automatist) with an interest in embedded
-      systems, robotics, machine learning, UNIX, and much more. <b>Systems
-      Engineering</b> graduate (B.Eng. in 2026), now a M.Eng. student in
-      <b>Machine Learning, Robotics, and Control</b>.
+      Faculty of Automatic Control and Computer Engineering. Coursework:
+      microcontrollers, real-time operating systems, digital signal
+      processors (dsPIC), computer architecture, data structures and
+      algorithms, system identification, automatic control, robotics, mobile
+      robot path planning, computer vision, data acquisition and process
+      interfaces, neural networks and fuzzy logic.
     </p>
   </div>
 
-  <div class="cmd" id="education">
-    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
-    <span class="c">cat education.txt</span>
-  </div>
-  <div class="out">
-    <ul>
-      <li><b>M.Eng., Machine Learning, Robotics, and Control</b> - Gheorghe
-        Asachi
-        Technical University of Iași, Faculty of Automatic Control and Computer
-        Engineering <span class="dim">(Oct 2026 - present)</span></li>
-      <li><b>B.Eng., Systems Engineering</b> - Gheorghe Asachi Technical
-        University of Iași, Faculty of Automatic Control and Computer
-        Engineering <span class="dim">(Oct 2022 - Jul 2026)</span></li>
-    </ul>
-    <p class="dim">
-      coursework: microcontrollers, real-time operating systems, digital signal
-      processors (dsPIC), computer architecture, data structures and algorithms,
-      system identification, automatic control, robotics, mobile robot path
-      planning, computer vision, data acquisition and process interfaces,
-      neural networks and fuzzy logic
+  <h2 id="experience">cat experience/*</h2>
+
+  <div class="post">
+    <div class="title">Summer Knowledge Hub Intern, Continental</div>
+    <div class="meta">
+      <span>Jun - Jul 2025</span>
+      <span class="tag">#python</span> <span class="tag">#flask</span>
+      <span class="tag">#pandas</span> <span class="tag">#cantools</span>
+      <span class="tag">#can-bus</span>
+    </div>
+    <p>
+      Built, together with a team of students, a Python and Flask web
+      application using pandas and cantools to parse DBC databases, extract
+      and interpret diagnostic messages, and visualize CAN network data in an
+      interactive front end. Restructured frame payloads to cut redundant data
+      and reduce bus traffic.
     </p>
   </div>
 
-  <div class="cmd" id="experience">
-    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
-    <span class="c">cat experience/*</span>
-  </div>
-  <div class="out">
-    <div class="entry">
-      <span class="t">Continental, Iași</span> - Summer Knowledge Hub Intern
-      <span class="dim">(Jun - Jul 2025)</span>
-      <span class="d">Built, together with a team of students, a Python and
-        Flask web
-        application using pandas and cantools to parse DBC databases, extract
-        and interpret diagnostic messages, and visualize CAN network data in an
-        interactive front end. Restructured frame payloads to cut redundant
-        data and reduce bus traffic.</span>
-      <span class="s">Python, Flask, pandas, cantools, CAN bus</span>
+  <h2 id="projects">cat projects/*</h2>
+
+  <div class="post">
+    <div class="title">Real-Time Embedded Control System with FreeRTOS</div>
+    <div class="meta">
+      <span>Embedded</span>
+      <span class="tag">#embedded-c</span> <span class="tag">#freertos</span>
+      <span class="tag">#dspic</span> <span class="tag">#uart</span>
+      <span class="tag">#adc</span> <span class="tag">#pwm</span>
     </div>
+    <p>
+      Multitasking FreeRTOS application on a dsPIC33FJ128MC802. It reads a
+      DS18B20 1-Wire temperature sensor and drives a servo-actuated hatch via
+      PWM, in automatic mode (temperature-based) or manual mode (potentiometer
+      read through the ADC). Tasks are synchronized with mutexes, semaphores
+      and queues. A UART command menu queries and switches the control mode
+      and reads the temperature, while an LCD shows temperature, mode, voltage
+      and the last command.
+    </p>
   </div>
 
-  <div class="cmd" id="projects">
-    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
-    <span class="c">cat projects/*</span>
-  </div>
-  <div class="out">
-    <div class="entry">
-      <span class="t">Collaborative UAV-UGV Search-and-Rescue Simulation</span>
-      <span class="dim">(bachelor thesis)</span>
-      <span class="d">A drone flies a lawnmower coverage path, spots victims
-        with
-        a thermal camera and georeferences them. A ground rover is then sent
-        to each location.</span>
-      <span class="s">ROS 2, PX4 SITL, Gazebo, Nav2</span>
+  <div class="post">
+    <div class="title">
+      Collaborative UAV-UGV Search-and-Rescue Simulation
     </div>
-    <div class="entry">
-      <span class="t">Real-Time Embedded Control System with FreeRTOS</span>
-      <span class="d">Multitasking FreeRTOS application on a dsPIC33FJ128MC802.
-        Reads a DS18B20 1-Wire temperature sensor and drives a servo-actuated
-        hatch via PWM, in automatic mode (temperature-based) or manual mode
-        (potentiometer read through the ADC). Tasks are synchronized with
-        mutexes, semaphores and queues. A UART command menu queries and
-        switches the control mode and reads the temperature, while an LCD shows
-        temperature, mode, voltage and the last command.</span>
-      <span class="s">Embedded C, FreeRTOS, dsPIC33FJ, UART, ADC, PWM</span>
+    <div class="meta">
+      <span>Bachelor thesis</span>
+      <span class="tag">#ros2</span> <span class="tag">#px4</span>
+      <span class="tag">#gazebo</span> <span class="tag">#nav2</span>
     </div>
+    <p>
+      A drone flies a lawnmower coverage path, spots victims with a thermal
+      camera and georeferences them. A ground rover is then sent to each
+      location.
+    </p>
   </div>
 
-  <div class="cmd" id="skills">
-    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
-    <span class="c">cat skills.txt</span>
-  </div>
-  <div class="out">
-    <ul>
-      <li><b>languages:</b> C, C++, Python, Java, x86 Assembly</li>
-      <li><b>embedded:</b> microcontroller programming, RTOSs</li>
-      <li><b>networking:</b> TCP/IP, socket programming, Wireshark</li>
-      <li><b>robotics:</b> ROS 2, Nav2, Gazebo</li>
-      <li><b>control:</b> MATLAB, Simulink, PID control, system identification
-        and modeling</li>
-      <li><b>tools:</b> GNU/Linux, UNIX, Git, shell scripting, LaTeX, SQL</li>
-      <li><b>spoken:</b> Romanian (native), English (upper-intermediate, B2),
-        German (beginner)</li>
-    </ul>
+  <h2 id="skills">cat skills.txt</h2>
+
+  <div class="skills">
+    <p><b>Languages:</b> C, C++, Python, Java, x86 Assembly</p>
+    <p><b>Embedded:</b> microcontroller programming, RTOSs</p>
+    <p><b>Networking:</b> TCP/IP, socket programming, Wireshark</p>
+    <p><b>Robotics:</b> ROS 2, Nav2, Gazebo</p>
+    <p>
+      <b>Control:</b> MATLAB, Simulink, PID control, system identification and
+      modeling
+    </p>
+    <p><b>Tools:</b> GNU/Linux, UNIX, Git, shell scripting, LaTeX, SQL</p>
+    <p>
+      <b>Spoken:</b> Romanian (native), English (upper-intermediate, B2),
+      German (beginner)
+    </p>
   </div>
 
-  <div class="cmd" id="contact">
-    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
-    <span class="c">cat contact.txt</span>
-  </div>
-  <div class="out">
-    <ul class="plain">
-      <li><span class="dim">email   </span>
-        <a href="mailto:sebastian@lzrscu.com">sebastian {at} lzrscu.com</a></li>
-      <li><span class="dim">school  </span>
-        <a href="mailto:sebastian.lazarescu@student.tuiasi.ro">
-          sebastian.lazarescu {at} student.tuiasi.ro</a></li>
-      <li><span class="dim">github  </span>
-        <a href="https://github.com/lzrscu" target="_blank"
-          rel="noopener">github.com/lzrscu</a></li>
-      <li><span class="dim">codeberg</span>
-        <a href="https://codeberg.org/lzrscu" target="_blank"
-          rel="noopener">codeberg.org/lzrscu</a></li>
-      <li><span class="dim">linkedin</span>
-        <a href="https://www.linkedin.com/in/lzrscu" target="_blank"
-          rel="noopener">linkedin.com/in/lzrscu</a></li>
-    </ul>
-  </div>
+  <h2 id="contact">cat contact.txt</h2>
 
-  <div class="cmd">
-    <span class="ps">sebastian@lzrscu:~</span><span class="sym">$</span>
-    <span class="c"><span class="cursor" aria-hidden="true"></span></span>
-  </div>
-
+  <p>
+    You can also find me on
+    <a href="https://codeberg.org/lzrscu" target="_blank"
+      rel="noopener">Codeberg</a> and
+    <a href="https://www.linkedin.com/in/lzrscu" target="_blank"
+      rel="noopener">LinkedIn</a>. For anything university-related, write to
+    <a href="mailto:sebastian.lazarescu@student.tuiasi.ro">
+      sebastian.lazarescu@student.tuiasi.ro</a>.
+  </p>
 </main>
+
+<footer>
+  www.lzrscu.com (tty1) - updated 11 Nov 2026
+</footer>
+
 </body>
 </html>
